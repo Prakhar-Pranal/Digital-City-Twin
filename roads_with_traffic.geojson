@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "roads_with_traffic",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "road_id": 1, "name": "Main Street", "datetime": "2023-10-01T08:00:00", "traffic_volume": 100, "normalized_traffic": 0.33333333333333337 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.4194, 37.7749 ], [ -122.4184, 37.7759 ], [ -122.4174, 37.7769 ] ] } },
+{ "type": "Feature", "properties": { "road_id": 1, "name": "Main Street", "datetime": "2023-10-01T10:00:00", "traffic_volume": 200, "normalized_traffic": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.4194, 37.7749 ], [ -122.4184, 37.7759 ], [ -122.4174, 37.7769 ] ] } },
+{ "type": "Feature", "properties": { "road_id": 2, "name": "Second Avenue", "datetime": "2023-10-01T08:00:00", "traffic_volume": 80, "normalized_traffic": 0.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.4194, 37.7749 ], [ -122.4194, 37.7739 ], [ -122.4194, 37.7729 ] ] } },
+{ "type": "Feature", "properties": { "road_id": 2, "name": "Second Avenue", "datetime": "2023-10-01T09:00:00", "traffic_volume": 120, "normalized_traffic": 0.46666666666666667 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.4194, 37.7749 ], [ -122.4194, 37.7739 ], [ -122.4194, 37.7729 ] ] } },
+{ "type": "Feature", "properties": { "road_id": 3, "name": "Third Boulevard", "datetime": "2023-10-01T08:00:00", "traffic_volume": 50, "normalized_traffic": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.4174, 37.7769 ], [ -122.4164, 37.7769 ], [ -122.4154, 37.7769 ] ] } },
+{ "type": "Feature", "properties": { "road_id": 3, "name": "Third Boulevard", "datetime": "2023-10-01T10:00:00", "traffic_volume": 130, "normalized_traffic": 0.53333333333333333 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.4174, 37.7769 ], [ -122.4164, 37.7769 ], [ -122.4154, 37.7769 ] ] } },
+{ "type": "Feature", "properties": { "road_id": 4, "name": "road 11", "datetime": "2023-10-01T09:00:00", "traffic_volume": 90, "normalized_traffic": 0.26666666666666672 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.4194, 37.7729 ], [ -122.4194, 37.774 ], [ -122.4194, 37.7749 ] ] } },
+{ "type": "Feature", "properties": { "road_id": 5, "name": "Avenue B", "datetime": "2023-10-01T09:00:00", "traffic_volume": 150, "normalized_traffic": 0.66666666666666663 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.418, 37.775 ], [ -122.418, 37.774 ], [ -122.418, 37.773 ] ] } },
+{ "type": "Feature", "properties": { "road_id": 6, "name": "Avenue C", "datetime": "2023-10-01T10:00:00", "traffic_volume": 180, "normalized_traffic": 0.86666666666666681 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.416, 37.775 ], [ -122.416, 37.774 ], [ -122.416, 37.773 ] ] } }
+]
+}
